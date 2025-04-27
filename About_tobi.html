@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Lê Khánh Duy - Sinh viên Điện - Điện tử</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #3a7bd5;
+        }
+        
+        h1 {
+            color: #3a7bd5;
+            font-size: 28px;
+            margin-bottom: 5px; 
+        }
+        
+        h2 {
+            color: #3a7bd5;
+            font-size: 20px;
+            margin: 25px 0 15px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        h3 {
+            font-size: 18px;
+            margin: 15px 0 5px;
+            color: #555;
+        }
+        
+        .subtitle {
+            font-weight: bold;
+            font-size: 18px;
+            color: #555;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .education-item, .experience-item, .project-item {
+            margin-bottom: 20px;
+        }
+        
+        .date {
+            font-weight: bold;
+            color: #666;
+            margin-bottom: 5px;
+        }
+        
+        .institution, .company {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .degree, .position {
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        
+        .description {
+            margin-bottom: 5px;
+        }
+        
+        .achievements {
+            margin-top: 10px;
+            padding-left: 20px;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .skill-category {
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .skill-list {
+            list-style-type: none;
+        }
+        
+        .skill-list li {
+            margin-bottom: 5px;
+            position: relative;
+            padding-left: 15px;
+        }
+        
+        .skill-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #3a7bd5;
+        }
+        
+        .awards {
+            margin-top: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-top: 15px;
+        }
+        
+        .social-links a {
+            color: #3a7bd5;
+            text-decoration: none;
+        }
+        
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .interests {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        
+        .interest {
+            background-color: #eef4ff;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nguyễn Lê Khánh Duy</h1>
+        <p class="subtitle">Sinh viên Điện - Điện tử</p>
+    </header>
+    
+    <section class="section">
+        <h2>Thông tin liên hệ</h2>
+        <div class="contact-info">
+            <div class="contact-item">Email: nguyenlekhanhduy46@gmail.com</div>
+            <div class="contact-item">Địa chỉ: Bình Tân, TP HCM</div>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/khanhduywithlove" target="_blank">Facebook</a>
+            <a href="https://github.com/st4rb0ic0d0n" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/nglkduy" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Học vấn</h2>
+        <div class="education-item">
+            <div class="date">08/2024 - 04/2030</div>
+            <div class="institution">Trường Đại học Bách Khoa - ĐHQG Thành phố Hồ Chí Minh</div>
+            <div class="degree">Hệ thống năng lượng điện, Khoa Điện - Điện tử, Chương trình Kỹ sư CLC Việt - Pháp</div>
+            <div class="description">Tốt nghiệp loại Giỏi, điểm trung bình 3.4</div>
+        </div>
+        <div class="education-item">
+            <div class="date">08/2021 - 06/2024</div>
+            <div class="institution">Trường THPT chuyên Nguyễn Quang Diêu</div>
+            <div class="degree">Chuyên Toán</div>
+            <div class="description">Tốt nghiệp loại Giỏi, điểm trung bình 9.0</div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Kinh nghiệm</h2>
+        <div class="experience-item">
+            <div class="date">2024 - 2025</div>
+            <div class="company">Nghiên cứu khoa học</div>
+            <div class="position">Máy bay sử dụng năng lượng điện</div>
+            <div class="description">Phụ trách mảng hiệu quả năng lượng điện cho máy bay (thiết kế cánh, pin và động cơ)</div>
+        </div>
+        <div class="experience-item">
+            <div class="date">2023 - 2024</div>
+            <div class="company">Hệ thống cảnh báo vượt xe an toàn và phanh điện tử</div>
+            <div class="position">Leader nhóm 4 thành viên</div>
+            <div class="description">
+                <p>- Lập trình C++ cho mô hình</p>
+                <p>- Nghiên cứu cấu tạo và áp dụng phanh điện tử vào mô hình</p>
+                <div class="achievements">
+                    <strong>Thành tích:</strong> Giải Khuyến khích cấp tỉnh cuộc thi Khoa học - Kỹ thuật (2023-2024)
+                </div>
+            </div>
+        </div>
+        <div class="experience-item">
+            <div class="date">2024</div>
+            <div class="company">Máy nhắn tin cho người khiếm thị và học máy ghi nhớ thói quen của người khiếm thị</div>
+            <div class="position">Leader nhóm 5 thành viên</div>
+            <div class="description">
+                <p>- Cuộc thi Ngày hội kỹ thuật Trường ĐH Bách Khoa (2024)</p>
+                <p>- Phụ trách phần cứng và xử lý dữ liệu cho dự án</p>
+                <div class="achievements">
+                    <strong>Thành tích:</strong> Giải Nhất cuộc thi và giải Dự án ấn tượng nhất cuộc thi
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Kỹ năng</h2>
+        <div class="skills">
+            <div class="skill-category">
+                <h3>Lập trình</h3>
+                <ul class="skill-list">
+                    <li>Chủ yếu C++ và Python</li>
+                    <li>Có thể code PLC cơ bản (LAD, ST/STL,…)</li>
+                    <li>Thông hiểu Arduino và ESP32/ESP8266</li>
+                    <li>Đang tìm hiểu STM32 và Raspberry Pi</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Quản lý</h3>
+                <ul class="skill-list">
+                    <li>Làm nhóm trưởng nhiều dự án</li>
+                    <li>Kinh nghiệm dạy ôn đội dự tuyển HSGQG</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Chuyên môn</h3>
+                <ul class="skill-list">
+                    <li>Cơ học, Điện học, Điện tử học</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Giải thưởng</h2>
+        <div class="awards">
+            <ul class="skill-list">
+                <li>HSG Quốc gia môn Vật lý (2023-2024)</li>
+                <li>Olympic KHTN (2022, 2023)</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="section">
+        <h2>Sở thích</h2>
+        <div class="interests">
+            <span class="interest">Đá bóng</span>
+            <span class="interest">Đi phượt</span>
+            <span class="interest">Cà phê với bạn bè</span>
+        </div>
+    </section>
+</body>
+</html>
